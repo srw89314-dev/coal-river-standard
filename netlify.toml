@@ -10,3 +10,8 @@
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
     Content-Security-Policy = "default-src 'self'; base-uri 'self'; connect-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; object-src 'none'; script-src 'self'; style-src 'self'"
     Strict-Transport-Security = "max-age=31536000"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

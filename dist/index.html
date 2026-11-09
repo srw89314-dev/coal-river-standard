@@ -168,7 +168,7 @@
       <form id="lead-form" name="website-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
         <input type="hidden" name="form-name" value="website-inquiry">
         <input type="hidden" name="subject" value="New Coal River Standard inquiry from %{submissionId}" data-remove-prefix>
-        <p class="visually-hidden"><label>Do not fill this out if you are human: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <p hidden><label>Do not fill this out if you are human: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
         <div class="form-row"><label>First name<input name="name" autocomplete="given-name" required></label><label>Business name<input name="business" autocomplete="organization" required></label></div>
         <label>Email<input type="email" name="email" autocomplete="email" required></label>
         <label>Current website or Facebook page <span>(optional)</span><input type="url" name="currentSite" placeholder="https://"></label>
