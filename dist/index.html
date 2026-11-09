@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Coal River Standard | Websites for Local Businesses</title>
-  <meta name="description" content="Clear, professional websites for local businesses that need to look established, earn trust, and turn visits into calls.">
+  <meta name="description" content="West Virginia-based web design for local businesses that need to look established, earn trust, and turn visits into calls.">
   <meta name="theme-color" content="#173a34">
   <link rel="canonical" href="https://coal-river-standard.netlify.app/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -43,6 +43,7 @@
           <li>Mobile-ready</li>
           <li>Clear pricing</li>
           <li>You own your site</li>
+          <li>West Virginia-based</li>
         </ul>
       </div>
 
@@ -156,6 +157,7 @@
         <details><summary>Do I own the finished website?</summary><p>Yes. After the final payment, the approved website files and business-specific content belong to you. Any third-party services remain subject to their own terms.</p></details>
         <details><summary>What if I do not have good photos or written content?</summary><p>We can help organize and polish the information you already have. If professional photography or specialized writing is needed, we will discuss that before adding any cost.</p></details>
         <details><summary>Are hosting and the domain included?</summary><p>Domain registration and third-party service fees are separate, so they stay in your name and under your control. We can handle the technical connection for you.</p></details>
+        <details><summary>Do you work with businesses outside West Virginia?</summary><p>Yes. Coal River Standard is based near Saint Albans, West Virginia, and gives special attention to businesses in the surrounding communities. The entire process can also be handled remotely for suitable local businesses anywhere in the United States.</p></details>
       </div>
     </section>
 
@@ -169,10 +171,11 @@
         <input type="hidden" name="form-name" value="website-inquiry">
         <input type="hidden" name="subject" value="New Coal River Standard inquiry from %{submissionId}" data-remove-prefix>
         <p hidden><label>Do not fill this out if you are human: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
-        <div class="form-row"><label>First name<input name="name" autocomplete="given-name" required></label><label>Business name<input name="business" autocomplete="organization" required></label></div>
+        <div class="form-row"><label>First name<input name="name" autocomplete="given-name" maxlength="80" required></label><label>Business name<input name="business" autocomplete="organization" maxlength="120" required></label></div>
+        <label>City and state<input name="location" autocomplete="address-level2" maxlength="120" placeholder="City, State" required></label>
         <label>Email<input type="email" name="email" autocomplete="email" required></label>
-        <label>Current website or Facebook page <span>(optional)</span><input type="url" name="currentSite" placeholder="https://"></label>
-        <label>What would you like your website to help you do?<textarea name="goal" rows="4" required></textarea></label>
+        <label>Current website or Facebook page <span>(optional)</span><input type="url" name="currentSite" maxlength="500" placeholder="https://"></label>
+        <label>What would you like your website to help you do?<textarea name="goal" rows="4" maxlength="1500" required></textarea></label>
         <button class="button button-primary" type="submit">Request my free preview</button>
         <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
         <p class="form-fineprint">No spam. No pressure. We’ll only use your information to respond to this request. <a href="/privacy">Privacy policy</a>.</p>
@@ -182,7 +185,7 @@
 
   <footer>
     <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">CR</span><span>Coal River Standard</span></a>
-    <p>Professional websites for local businesses.</p>
+    <p>Near Saint Albans, West Virginia · Serving local businesses nationwide.</p>
     <p class="footer-links"><a href="/privacy">Privacy</a><span aria-hidden="true">·</span> © <span id="year"></span> Coal River Standard</p>
   </footer>
   <script src="app.js"></script>

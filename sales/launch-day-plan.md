@@ -4,7 +4,7 @@
 
 - Confirm the public business email and form-notification destination
 - Confirm the $750 package, $59 care plan, and first-three-client limit
-- Confirm the service area and any public phone number or mailing address
+- Confirm whether to publish a phone number or mailing address
 - Choose a domain and register it in the owner's account
 - Approve the final wording and design on phone and desktop
 

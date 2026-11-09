@@ -14,7 +14,7 @@
 
 - Confirm the public business email that should receive form notifications
 - Confirm the $750 founding-client price, $59 care plan, and package boundaries
-- Confirm the service area and any public phone number or business mailing address
+- Confirm whether to publish a phone number or business mailing address
 - Choose and register the domain in the owner's account
 - Approve the final site on phone and desktop
 - Explicitly approve removal of Netlify team-login protection
