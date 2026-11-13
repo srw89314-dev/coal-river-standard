@@ -1,7 +1,9 @@
-document.getElementById("year").textContent = new Date().getFullYear();
+const year = document.getElementById("year");
+if (year) year.textContent = new Date().getFullYear();
 
 const form = document.getElementById("lead-form");
 const status = document.getElementById("form-status");
+if (form && status) {
 const submitButton = form.querySelector('button[type="submit"]');
 
 form.addEventListener("submit", async (event) => {
@@ -33,3 +35,6 @@ form.addEventListener("submit", async (event) => {
     submitButton.textContent = "Request my free preview";
   }
 });
+
+
+}

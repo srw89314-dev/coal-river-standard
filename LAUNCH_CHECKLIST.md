@@ -1,30 +1,34 @@
 # Coal River Standard public-launch checklist
 
-## Complete
+Updated November 13, 2026. Owner approved the pricing preview and authorized the multi-page update for the protected site. This is not approval to remove visitor protection.
 
-- Private GitHub repository connected to Netlify continuous deployment
-- Netlify production deploy protected by team login
-- Responsive one-page sales site with clear founding-client offer
-- Working Netlify lead-capture form with spam honeypot
-- Privacy policy and custom 404 page
-- Security headers, HTTPS enforcement, favicon, canonical URL, and social metadata
-- Sales offer, outreach script, and client-intake checklist
+## Implemented
 
-## Owner decisions still required
+- Private GitHub repository and Netlify continuous deployment
+- Team-login protection across all deploys, last verified November 13
+- Approved pricing menu: $595 / $995 / $1,495 informational packages; booking from $1,345; starter store from $1,995; custom systems individually quoted
+- Separate Home, Services, Pricing, Our Work, About, and Contact pages
+- Shared navigation including small-screen layouts; a shorter homepage
+- One clearly labeled design concept, with no invented client results
+- Contact form moved to its own page, preserving Netlify form name and spam honeypot
+- Shared JavaScript handles pages with and without the form
+- Existing privacy page, security headers, and custom error page retained
+- $59 care-plan promise removed; care pricing remains undecided
 
-- Confirm the public business email that should receive form notifications
-- Confirm the $750 founding-client price, $59 care plan, and package boundaries
-- Confirm whether to publish a phone number or business mailing address
-- Choose and register the domain in the owner's account
-- Approve the final site on phone and desktop
-- Explicitly approve removal of Netlify team-login protection
+## Remaining before public launch
 
-## Launch-day checks
+- Review this multi-page version on an actual phone and desktop; complete QA_APPROVAL.md
+- Confirm business inbox and configure form notification recipient; add verified business contact to privacy policy
+- Test inquiry submission, storage, notification delivery, and reply workflow end to end; current source alone does not prove delivery
+- Confirm any required state and municipal approvals and the business details to display
+- Finalize client agreement, scope/change process, intake, and private client-file storage
+- Confirm banking and payment/invoicing readiness before accepting paid projects
+- Confirm applicable sales-tax treatment before issuing invoices
+- Decide whether to offer a care plan; it can be omitted at launch
+- Choose/register the owner-controlled domain, configure it, and verify HTTPS
+- Replace/add canonical and social URLs for the final domain; generate sitemap and robots settings
+- After final approval, remove prelaunch notices/noindex and Netlify team-login protection as one deliberate launch step
 
-- Add the confirmed email notification in Netlify Forms
-- Send one realistic form submission and verify receipt
-- Replace the temporary Netlify canonical URL with the custom domain
-- Add the custom domain to Netlify and verify HTTPS
-- Add `robots.txt` and `sitemap.xml` for the final domain
-- Confirm every link, form message, price, and policy date
-- Remove private access only after the owner gives final approval
+## Estimate, not a measured score
+
+Approximately 75% overall launch readiness, based on implemented website and offer preparation versus the remaining operational and end-to-end checks. Unverified approvals, account setup, and inbox delivery are not counted as complete. This estimate must be revised as those are confirmed.
