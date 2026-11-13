@@ -2,8 +2,9 @@
 
 ## Gate 1 — owner decisions
 
+- Confirm required business approvals, client paperwork, and invoicing readiness before accepting paid projects
 - Confirm the public business email and form-notification destination
-- Confirm the $750 package, $59 care plan, and first-three-client limit
+- Use the approved [pricing menu](offer.md) consistently; care pricing is undecided and no founding-client limit is assumed
 - Confirm whether to publish a phone number or mailing address
 - Choose a domain and register it in the owner's account
 - Approve the final wording and design on phone and desktop
@@ -20,6 +21,7 @@
 ## Gate 3 — controlled public launch
 
 - Obtain explicit owner approval to remove Netlify team-login protection
+- Remove prelaunch notices/noindex only as part of the approved launch
 - Remove the protection
 - Test the public site in a signed-out browser
 - Submit a final production inquiry and verify receipt
@@ -31,5 +33,5 @@
 - Check Netlify Forms every business day, including spam
 - Reply to genuine leads the same business day when practical
 - Track which outreach message or referral produced each lead
-- Preserve the founding-client scope; quote out-of-scope work separately
+- Preserve each accepted SOW; quote out-of-scope work separately
 - Collect written permission before displaying a client's name, work, review, or results

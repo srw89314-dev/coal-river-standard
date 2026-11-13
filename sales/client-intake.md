@@ -1,34 +1,64 @@
-# Client intake checklist
+# Client website questionnaire
+Reusable blank draft. Complete one private copy per project; do not put client responses, assets, credentials, or signed documents in GitHub.
 
-## Business basics
+Project reference: ____________________  
+Date: ____________________
 
-- Legal business name and preferred public name
-- Owner or primary contact
-- Phone and email to display
-- Service area and business hours
-- Existing domain, website, and social pages
+## 1. Your business
+Legal/public business names: ____________________  
+Main contact and authorized approver: ____________________  
+Email and phone for project communication: ____________________  
+Public contact details, service area, and opening hours: ____________________  
+Current website/domain/social pages: ____________________
 
-## Offer and customers
+## 2. What should visitors be able to do?
+Choose all that apply:
+- [ ] Learn about the business and contact us
+- [ ] Request a quote (not an instant booking)
+- [ ] Book an appointment
+- [ ] Buy products
+- [ ] Sign in to an account or use a dashboard
+- [ ] Something else: ____________________
 
-- Main services in priority order
-- Best-fit customer
-- Most profitable or most important service
-- Common customer questions
-- Main reason customers choose the business
+Main goal and intended customers:  
+____________________________________________________________  
+____________________________________________________________
 
-## Proof and content
+Top services/products and common customer questions:  
+____________________________________________________________  
+____________________________________________________________
 
-- Logo files
-- Original photos the client owns or may legally use
-- Licenses, certifications, affiliations, or awards that can be verified
-- Reviews the client has permission to reproduce
-- Privacy policy or industry-specific disclosures, if applicable
+## 3. Pages and content
+Desired pages or sections: ____________________  
+Logo, photos, initial written content, and asset owner: ____________________  
+Which materials still need preparing, and by whom? ____________________  
+Verified credentials/reviews we may display: ____________________  
+Permission to use each asset/review confirmed: [ ] Yes [ ] Needs review  
+Any personal/regulated information involved? Describe the category only, without actual records: ____________________
 
-## Project controls
+## 4. Booking, sales, or custom features
+Complete only if relevant.
+Existing platform/provider and account owner: ____________________  
+Booking: services, staff/calendar count, durations, payment requirement, cancellation rules: ____________________  
+Store: simple products, variants, physical/digital delivery, shipping locations, subscriptions: ____________________  
+Custom: account roles, key workflow, integrations, and data categories: ____________________  
+Tax/shipping/legal policy owner and unresolved questions: ____________________
 
-- Confirmed page list and deliverables
-- Written approval of price and payment schedule
-- One decision-maker for feedback
-- Target launch date
-- Domain and hosting ownership confirmed
-- Final written approval before publication
+## 5. Budget, timing, and decisions
+Preferred package (see [menu](offer.md)) / unsure: ____________________  
+Build budget and separate recurring-cost budget: ____________________  
+Desired launch date and any fixed deadline: ____________________  
+One decision-maker for consolidated feedback: ____________________  
+Preferred communication method: ____________________  
+Existing domain/hosting owner and delegated-access availability: ____________________
+
+## Provider checks before quoting
+- [ ] Feasible scope and correct package; starting-price extras identified
+- [ ] Exact pages/features, exclusions, acceptance checks, and content dependencies recorded
+- [ ] Written quote, agreement/SOW versions, and payment schedule ready
+- [ ] Domain/hosting/platform ownership and fees understood
+- [ ] Two revision rounds defined for standard packages
+- [ ] Required specialist/privacy/tax questions resolved or assigned before relevant work
+- [ ] Final approval and handoff responsibilities defined
+
+Do not ask clients to put passwords, card details, government identifiers, or actual sensitive customer records here. Use approved delegated access. Portfolio permission is separate from project approval.

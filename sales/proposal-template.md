@@ -1,60 +1,64 @@
 # Coal River Standard — website proposal
+Blank working template; not a signed service agreement. Use with the reviewed agreement and an exact statement of work. Store completed client copies outside GitHub.
 
 ## Prepared for
+Business/legal name: [name]  
+Authorized contact: [name/role]  
+Project reference and version: [reference]  
+Date / valid through: [dates]
 
-**Business:** [Client business name]  
-**Contact:** [Client contact name]  
-**Date:** [Date]  
-**Proposal valid through:** [Date]
+## Goal
+[Describe the business, intended audience, and the action visitors should take. Do not guarantee rankings, traffic, leads, or revenue.]
 
-## The goal
+## Recommended package and exact scope
+Select from the [approved menu](offer.md). Never assume a starting price covers additional features.
 
-[Two or three sentences describing the client's current website problem, best-fit customer, and the business result the new site should support. Keep this specific and avoid guaranteeing traffic, rankings, leads, or revenue.]
+| Package | One-time build fee | Ceiling |
+| --- | --- | --- |
+| One Page | $595 | One page, up to six sections |
+| Business | $995 | Up to five pages |
+| Expanded | $1,495 | Up to ten pages |
+| Booking | From $1,345 | Business + one existing booking platform/workflow |
+| Starter Store | From $1,995 | Five informational pages + standard store pages; up to ten simple products |
+| Custom Systems | Individual quote | Discovery and written scope before pricing |
 
-## Recommended project
+Selected package: [one]  
+Exact service fee in USD: [amount]  
+Page/section list: [exact list]  
+Forms, booking workflow, products, and integrations included: [exact list or none]  
+Observable acceptance checks: [list]  
+Explicit exclusions and client dependencies: [list]
 
-**Local Business Launch — $750**
-
-- Up to five focused pages
-- Custom, mobile-ready design
-- Help organizing service and contact copy
-- Contact or quote-request form
-- Basic local-search setup
-- Two revision rounds
-- Launch and domain connection
-
-## Proposed pages
-
-1. [Home]
-2. [Services]
-3. [About]
-4. [Service area or proof]
-5. [Contact]
-
-The final page list is confirmed before work begins.
+Website packages include responsive layouts, foundational SEO, two consolidated in-scope revision rounds, testing, private review, and basic handoff. Custom Systems uses its own agreed scope. Extensive copywriting, branding, and photography are separate.
 
 ## Schedule
-
-The target delivery window is one to two weeks after the first payment and receipt of the agreed content, photos, account access, and feedback. The schedule may move if client materials or approvals arrive late.
+Start conditions: [accepted agreement/SOW, required payment, approved content, delegated access]  
+Target milestones and review dates: [dates and dependencies]  
+Do not promise a universal one-to-two-week delivery window.
 
 ## Investment and payment
+Service fee: [amount]  
+Confirmed applicable taxes: [treatment/amount, or unresolved; resolve before issuing invoice]  
+Approved external costs: [itemized amount/payer/renewal or none]  
+Total: [reconciled total]
 
-- **$375 to schedule and begin**
-- **$375 after final approval and before launch**
+For standard packages the proposed schedule is 50% to begin and 50% before launch, confirmed in the agreement. Custom projects may use milestones. Calculate the actual amounts from this quote; do not copy old deposit examples.
 
-Domain registration, paid software, professional photography, advertising, ecommerce, booking systems, custom software, and other third-party costs are not included unless separately quoted in writing.
+Starting invoice: [amount/due date]  
+Completion invoice: [amount/due date]  
+Payment provider: [verified hosted method; never request card details in this document]
 
-## Optional ongoing care
+Domain, hosting, software subscriptions, and payment-processing charges are separate costs. Identify who pays each external cost. Do not add a customer card surcharge unless separately confirmed as permitted and disclosed.
 
-**$59 per month after launch** for hosting, monitoring, routine updates, and up to 30 minutes of small content changes per month. Larger changes are quoted before work begins. The care plan is optional and may be declined before launch.
+## Ongoing care
+No monthly plan is included or required. Care-plan scope and price remain undecided. Any later plan requires a separate written offer and acceptance.
 
 ## Client responsibilities
+Accurate initial copy and business facts; lawful media; one decision-maker; timely consolidated feedback; ownership or delegated access to required accounts; final written approval for the exact release. Agree on responsibility for specialist legal, privacy, accessibility, and regulated-industry requirements before work.
 
-The client provides accurate business information, materials they have the right to use, one decision-maker, timely feedback, and final written approval. The client remains responsible for industry-specific legal, privacy, accessibility, licensing, and regulatory requirements.
+## Next step
+Agree on this proposal's direction, then complete the reviewed service agreement and exact SOW before taking payment or starting paid work. Record approval of the exact document versions.
 
-## Approval
-
-To move forward, reply in writing that you approve the project scope, price, payment schedule, and proposed start date. A final service agreement and first-payment instructions will follow before work begins.
-
-**Approved by:** [Name]  
-**Date:** [Date]
+Client decision: [approve direction / request changes]  
+Authorized name/date: [record]  
+Related agreement and SOW: [versions]
