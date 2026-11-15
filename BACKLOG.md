@@ -2,7 +2,7 @@
 Updated November 15, 2026. This is the consolidated execution list for the Small Business Website / Coal River Standard venture. It supersedes obsolete status and provisional prices in older Showroom roadmaps; it does not erase their reusable templates or authorize a public launch.
 
 ## Working rule
-Complete one numbered task at a time. Report what is completed, tested, and still unverified, then STOP until Sean says “continue.” Do not silently begin the next task. Tasks needing owner documents, external approval, login, purchases, signatures or account opening remain dependent; explain the concrete dependency rather than pretending they are done.
+Sean authorized larger batches on November 15, 2026. Group related independent tasks, complete their available implementation and preparation, and report finished work, tests, concrete owner decisions and remaining dependencies at each substantial checkpoint. The earlier one-task-per-continue rule is superseded. Do not confuse a prepared template or manual prototype with a deployed system. Tasks needing owner documents, external approval, login, purchases, signatures or account opening remain dependent; explain the concrete dependency rather than pretending they are done.
 
 ## Already completed — do not repeat
 - Company name chosen and filing/fees submitted per portal screenshots; agency approval itself remains unverified.
@@ -17,17 +17,17 @@ Complete one numbered task at a time. Report what is completed, tested, and stil
 | --- | --- | --- |
 | 1 | Contact-email cleanup | DONE |
 | 2 | Client paperwork packet | DONE — TEMPLATES |
-| 3 | Private client-file storage | NEXT |
+| 3 | Private client-file storage | PREPARED — BUSINESS DRIVE CONNECTION NEEDED |
 | 4 | State formation and tax-registration documents | OWNER / EXTERNAL |
 | 5 | EIN | DEPENDENT |
 | 6 | Operating agreement | DEPENDENT |
 | 7 | St. Albans licensing and home-office questions | OWNER / EXTERNAL |
 | 8 | Employer and brand readiness | OWNER / EXTERNAL |
-| 9 | Bank requirements and business accounts | RESEARCH + OWNER |
-| 10 | Tax and bookkeeping setup | RESEARCH + OWNER |
+| 9 | Bank requirements and business accounts | RESEARCH PREPARED — BANK CONFIRMATION / OWNER OPENING |
+| 10 | Tax and bookkeeping setup | CASH WORKBOOK READY — TAX CLASSIFICATION OPEN |
 | 11 | Stripe and invoice readiness | DEPENDENT |
-| 12 | Hosting, support and care scope | READY |
-| 13 | Client book — private first version | READY AFTER PAPERWORK / STORAGE |
+| 12 | Hosting, support and care scope | CONCRETE PROPOSAL — OWNER DECISIONS / TESTS |
+| 13 | Client book — private first version | MANUAL STARTER READY — AUTHENTICATED APP PENDING |
 | 14 | Analytics provider and included setup | READY |
 | 15 | Monthly reporting workflow | AFTER CLIENT BOOK / MEASUREMENT |
 | 16 | Analytics/care pricing and website wording | AFTER COST / WORKFLOW CHECK |
@@ -51,7 +51,7 @@ Status: DONE — TEMPLATE PREPARATION
 Consolidate existing intake/proposal and Showroom scope, service-agreement draft, change-order, invoice, exact-version launch-approval, and handoff templates. Align package limits, two revisions, payment milestones, content rights, ownership, cancellation/refunds, support, and analytics. Mark legal review items clearly; keep completed client records out of GitHub.
 
 ### 3. Private client-file storage
-Status: NEXT
+Status: PREPARED — BUSINESS DRIVE CONNECTION NEEDED
 
 Create a restricted Google Drive company/client folder structure; separate internal and shareable materials, define project IDs, versions, permissions, retention, export and backup/restore. Verify the correct business account; no passwords or payment cards in records.
 
@@ -81,12 +81,12 @@ Status: OWNER / EXTERNAL
 Confirm outside-business requirements at the employer; keep work separate from employer time/equipment. Close unresolved brand/trademark/domain checks; state acceptance alone is not trademark clearance. Avoid reopening the chosen name without evidence of a problem.
 
 ### 9. Bank requirements and business accounts
-Status: RESEARCH + OWNER
+Status: RESEARCH PREPARED — BANK CONFIRMATION / OWNER OPENING
 
 Check Climate First's current checking/money-market requirements, opening deposits, fees, eligibility, and required documents; compare alternatives only if necessary. Owner opens/funds accounts when eligible. Keep business funds and tax reserves separate from household funds.
 
 ### 10. Tax and bookkeeping setup
-Status: RESEARCH + OWNER
+Status: CASH WORKBOOK READY — TAX CLASSIFICATION OPEN
 
 Confirm tax treatment for website design, custom programming, digital deliverables, hosting/care and reporting; resolve city B&O and filing obligations. Build private revenue/expense/invoice/time records, startup contributions/reimbursements, tax-reserve transfers and a calendar. Treat 30% as a provisional reserve, not a verified liability.
 
@@ -96,12 +96,12 @@ Status: DEPENDENT
 Configure verified business identity and bank destination; use hosted invoices/checkout. Define deposits, balances, receipts, refunds, cancellation/late-payment and disputes consistently with the agreement. Test success/failure, duplicates, refunds, fees and payout reconciliation before live collection.
 
 ### 12. Hosting, support and care scope
-Status: READY
+Status: CONCRETE PROPOSAL — OWNER DECISIONS / TESTS
 
 Choose ownership/delegated access, hosting cost/payer, backups, restore/rollback, updates, monitoring, response targets, correction window, edit allowance, cancellation and offboarding. Decide whether care is offered at launch; do not reinstate the obsolete $59 promise.
 
 ### 13. Client book — private first version
-Status: READY AFTER PAPERWORK / STORAGE
+Status: MANUAL STARTER READY — AUTHENTICATED APP PENDING
 
 Build persistent authenticated phone/laptop records for clients, multiple contacts/sites, leads, projects, tasks, document references, invoice references, care plans and dated history; search/filter, follow-ups, exports and restore. No secrets/cards; fictional records until access controls and isolation are tested.
 
@@ -189,4 +189,13 @@ Those PRs are preparation sources, not evidence of built applications or accepte
 - Delivered an editable 16-page Word packet, with questionnaire/discovery, proposal, two-page scope, two-page agreement review draft, change order, invoice/payment preparation, revisions, exact-release launch approval, handoff, and optional publicity permission.
 - Checked all 16 rendered pages, package prices, sample installment arithmetic, invoice/project balance separation and canonical template links. No completed client records or personal identifiers committed.
 - Agreement is explicitly not ready for signature. Ownership/license wording, cancellation/refunds, warranties, liability, privacy, disputes and precedence require review. Owner support/hosting choices, tax treatment, payment setup and analytics validation remain in their numbered tasks.
-- Task 3 has not begun. Stop until Sean says continue.
+- Task 2 ended before Task 3. That historical stop was superseded when Sean subsequently authorized larger batches.
+
+## Operations batch — November 15, 2026
+- Sean chose coalriverstandard@gmail.com as the owner for private business files. Connected Drive profile is personal; no company/client folders or records were written there. [Storage plan](operations/PRIVATE_STORAGE.md) and a portable folder scaffold are ready. Actual Drive creation, owner/permission checks and cloud restore remain pending the business connection.
+- Built and delivered a blank twelve-tab Excel workbook for clients, contacts, sites, projects, follow-ups, documents, hours, invoices, checking cash and reserve-account records. [Workbook guide](operations/CLIENT_WORKBOOK.md). This manual starter is not the authenticated Task 13 app.
+- Tested deposit/fee/invoice arithmetic, refunds, sales-tax exclusion from reserve basis, reserve-rate edits, missing-date flags and matched reserve transfers. Scanned authoring formula errors and checked native LibreOffice recalculation. Inspected all worksheet views. Test records were cleared. Microsoft Excel, Google Sheets conversion and mobile behavior remain unverified.
+- [Bank research](operations/BANK_READINESS.md) verifies published opening amounts, e-statement fee conditions and variable-rate relationship rules. WV eligibility, LLC documents, pending city-license acceptance and full opening disclosures still need bank confirmation. No accounts opened or funds moved.
+- [Bookkeeping and tax guide](operations/BOOKKEEPING_AND_TAX.md) separates a provisional reserve rule from actual liability; sales-tax classifications, B&O and payment amounts/dates remain unresolved. No filing or payment automation created.
+- [Hosting/support proposal](operations/HOSTING_SUPPORT_PROPOSAL.md) provides specific choices for review: client-owned domain/hosting, build/handoff first, proposed review/correction/response periods and no recurring care price yet. Not accepted terms, not a published offer. Platform costs and rollback testing remain open.
+- Completed this batch's available deliverables. Required approvals, EIN, existing operating-agreement adoption, bank opening, Stripe and public launch remain dependent. No website release or outbound client/banker messages were made.
