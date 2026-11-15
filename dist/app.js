@@ -138,10 +138,12 @@ if (form) {
     submitButton.disabled = true;
     submitButton.textContent = "Sending…";
     try {
+      const data = new FormData(form);
+      data.set("category", inquiryCategories[category.value].label);
       const response = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(new FormData(form)).toString()
+        body: new URLSearchParams(data).toString()
       });
       if (!response.ok) throw new Error("Submission failed");
       form.reset();

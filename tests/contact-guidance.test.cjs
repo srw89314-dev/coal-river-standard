@@ -18,7 +18,7 @@ function setup(ok=true){
  form.reportValidity=()=>form.reported=true;
  form.reset=()=>{message.value='';category.value='';};
  nodes['lead-form']=form;
- class Data{constructor(){this.entries=[['category',category.value],['goal',message.value],['subject',subject.value],['email',email.value]];}[Symbol.iterator](){return this.entries[Symbol.iterator]();}}
+ class Data{constructor(){this.entries=[['category',category.value],['goal',message.value],['subject',subject.value],['email',email.value]];}set(key,value){const item=this.entries.find(x=>x[0]===key);if(item)item[1]=value;else this.entries.push([key,value]);}[Symbol.iterator](){return this.entries[Symbol.iterator]();}}
  vm.runInNewContext(source,{document:{getElementById:id=>nodes[id],createElement:()=>field()},Date,URLSearchParams,FormData:Data,fetch:async(url,options)=>{posts.push({url,body:new URLSearchParams(options.body)});return {ok};}});
  return {nodes,form,posts,subject,name,button,message,category};
 }
@@ -45,10 +45,24 @@ test('blank, unknown category and unanswered prompts cannot send through handler
 test('valid inquiry posts its category and categorized subject',async()=>{
  const s=setup();s.category.value='general';s.category.events.change();s.message.value='I would like to understand the five-page business package.';
  await submit(s);assert.equal(s.posts.length,1);assert.equal(s.posts[0].url,'/');
- assert.equal(s.posts[0].body.get('category'),'general');assert.match(s.posts[0].body.get('subject'),/general question/);
+ assert.equal(s.posts[0].body.get('category'),'A general question');assert.match(s.posts[0].body.get('subject'),/general question/);
  assert.equal(s.message.value,'');assert.equal(s.button.disabled,false);assert.match(s.nodes['form-status'].textContent,/submitted/);
 });
 test('failed submission keeps the written message for retry',async()=>{
  const s=setup(false);s.category.value='redesign';s.category.events.change();s.message.value='Please help replace my existing business website.';const draft=s.message.value;
  await submit(s);assert.equal(s.message.value,draft);assert.equal(s.category.value,'redesign');assert.equal(s.button.disabled,false);assert.match(s.nodes['form-status'].textContent,/draft is still here/);
+});
+
+test('notification field label excludes dropdown choices',()=>{
+ const html=fs.readFileSync(path.join(__dirname,'../dist/contact.html'),'utf8');
+ assert.match(html,/<label for="inquiry-category">Message category<\/label><select/);
+ assert.doesNotMatch(html,/<label for="inquiry-category">[^]*?<select[^]*?<\/select><\/label>/);
+ assert.match(html,/<select id="inquiry-category" name="category" required/);
+});
+test('all categories submit one readable category value',async()=>{
+ const cases={'new-website':'New informational website',redesign:'Redesign an existing website',booking:'Online booking or appointments',store:'Online store or product sales',custom:'Custom features or customer accounts','existing-project':'An existing project or website help',general:'A general question'};
+ for(const [value,label] of Object.entries(cases)){
+  const s=setup();s.category.value=value;s.category.events.change();s.message.value='Please provide details about this business website service.';
+  await submit(s);assert.equal(s.posts.length,1);assert.equal(s.posts[0].body.get('category'),label);
+ }
 });

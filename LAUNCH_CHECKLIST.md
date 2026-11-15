@@ -1,6 +1,6 @@
 # Coal River Standard public-launch checklist
 
-Updated November 13, 2026. Owner approved the pricing preview and authorized the multi-page update for the protected site. This is not approval to remove visitor protection.
+Updated November 15, 2026. The ordered [master task list](BACKLOG.md) is the current execution source. Owner approved the pricing preview and authorized the multi-page update for the protected site. This is not approval to remove visitor protection.
 
 ## Implemented
 
@@ -18,8 +18,8 @@ Updated November 13, 2026. Owner approved the pricing preview and authorized the
 ## Remaining before public launch
 
 - Review this multi-page version on an actual phone and desktop; complete QA_APPROVAL.md
-- Confirm business inbox and configure form notification recipient; add verified business contact to privacy policy
-- Test inquiry submission, storage, notification delivery, and reply workflow end to end; current source alone does not prove delivery
+- Completed: notification inbox and Reply-To verified by Sean after manual spam verification; privacy contact published
+- During final QA, check the cleaned-up category label in a new notification and continue reviewing spam submissions
 - Confirm any required state and municipal approvals and the business details to display
 - Finalize client agreement, scope/change process, intake, and private client-file storage
 - Confirm banking and payment/invoicing readiness before accepting paid projects
@@ -31,4 +31,4 @@ Updated November 13, 2026. Owner approved the pricing preview and authorized the
 
 ## Estimate, not a measured score
 
-Approximately 75% overall launch readiness, based on implemented website and offer preparation versus the remaining operational and end-to-end checks. Unverified approvals, account setup, and inbox delivery are not counted as complete. This estimate must be revised as those are confirmed.
+Approximately 75% overall launch readiness, based on implemented website and offer preparation versus the remaining operational and end-to-end checks. Unverified approvals and account setup are not counted as complete. Inbox delivery and Reply-To have since been confirmed; the old percentage is historical, not a current measured score. This estimate must be revised as those are confirmed.
