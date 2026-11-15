@@ -15,8 +15,17 @@ Reconciled November 13, 2026 against the deployed site, sales documents, previou
 | 3 | Website phone/desktop review | Code checks pass; browser visual review incomplete | One consolidated review of all pages, links, forms, and readability; record results in QA_APPROVAL.md |
 | 4 | Business inbox and inquiry delivery | Netlify detects website-inquiry; end-to-end inbox delivery unproven | Inbox confirmed: coalriverstandard@gmail.com; public privacy contact added; seven inquiry categories and prompts implemented. Browser login is required to configure/verify the notification recipient, followed by storage/notification/reply testing |
 | 5 | Service delivery rehearsal | Blank workflow prepared in Showroom | Synthetic project run through intake, quote, scope, revisions, approval, and handoff without live charges or customer data |
-| 6 | Hosting/care decisions | No monthly care offer finalized | Define duties, limits, costs, response targets, and cancellation; optional plan may be omitted at launch |
+| 6 | Hosting/care and reporting pricing | Basic tracking included in build; monthly reporting belongs in paid care; monthly price remains undecided | Itemize inclusions in pricing/proposals; measure provider costs and reporting effort; define report schedule, support/edit limits, cancellation and handoff. See [requirements](CLIENT_BOOK_AND_REPORTING_PLAN.md) |
 | 7 | Sales-tax research | Not confirmed for exact services | Document current official treatment of informational builds, custom work, digital deliverables, hosting/care; resolve ambiguities before invoicing |
+
+## Client book and analytics requirements — November 15, 2026
+Sean requires a highly detailed private client book and a practical system for website statistics and monthly reports. Requirements are recorded in [Client book and reporting plan](CLIENT_BOOK_AND_REPORTING_PLAN.md); the application is not built yet.
+
+- Build connected client/contact, lead, project, task, invoice-reference, care-plan, website and report records.
+- Support phone/laptop use, restricted access, persistent storage, search, exports and restore.
+- Include basic analytics setup and owner stats access in the website pricing breakdown; scope monthly reporting within paid care. Monthly price is still open.
+- Build client records first, then reporting; rehearse using fictional data before live use. Complete one consolidated acceptance review.
+- Completed private client records remain outside source control.
 
 ## Needs owner action, outside evidence, or dependent setup
 | Item | Current status | Next action/dependency |
