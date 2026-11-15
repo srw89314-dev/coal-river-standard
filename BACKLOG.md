@@ -16,8 +16,8 @@ Complete one numbered task at a time. Report what is completed, tested, and stil
 | # | Task | Status |
 | --- | --- | --- |
 | 1 | Contact-email cleanup | DONE |
-| 2 | Client paperwork packet | NEXT |
-| 3 | Private client-file storage | READY |
+| 2 | Client paperwork packet | DONE — TEMPLATES |
+| 3 | Private client-file storage | NEXT |
 | 4 | State formation and tax-registration documents | OWNER / EXTERNAL |
 | 5 | EIN | DEPENDENT |
 | 6 | Operating agreement | DEPENDENT |
@@ -46,12 +46,12 @@ Status: DONE
 Record the owner-confirmed notification delivery and Reply-To; separate the category label from dropdown choices and submit a readable category value. Preserve spam filtering. A future received email will confirm the revised visual formatting.
 
 ### 2. Client paperwork packet
-Status: NEXT
+Status: DONE — TEMPLATE PREPARATION
 
 Consolidate existing intake/proposal and Showroom scope, service-agreement draft, change-order, invoice, exact-version launch-approval, and handoff templates. Align package limits, two revisions, payment milestones, content rights, ownership, cancellation/refunds, support, and analytics. Mark legal review items clearly; keep completed client records out of GitHub.
 
 ### 3. Private client-file storage
-Status: READY
+Status: NEXT
 
 Create a restricted Google Drive company/client folder structure; separate internal and shareable materials, define project IDs, versions, permissions, retention, export and backup/restore. Verify the correct business account; no passwords or payment cards in records.
 
@@ -183,3 +183,10 @@ Reviewed the current business BACKLOG, LAUNCH_CHECKLIST, INQUIRY_SETUP and sales
 - [Business PR 2 — detailed client book/analytics requirements](https://github.com/srw89314-dev/coal-river-standard/pull/2)
 
 Those PRs are preparation sources, not evidence of built applications or accepted client agreements. Reuse and reconcile them in the matching numbered task; no blanket merge is implied.
+
+## Task 2 evidence and limits
+- Consolidated the reusable templates in [client-packet](client-packet/README.md), aligned with approved package prices and two revision rounds. Supersedes duplicate intake and proposal drafts in sales.
+- Delivered an editable 16-page Word packet, with questionnaire/discovery, proposal, two-page scope, two-page agreement review draft, change order, invoice/payment preparation, revisions, exact-release launch approval, handoff, and optional publicity permission.
+- Checked all 16 rendered pages, package prices, sample installment arithmetic, invoice/project balance separation and canonical template links. No completed client records or personal identifiers committed.
+- Agreement is explicitly not ready for signature. Ownership/license wording, cancellation/refunds, warranties, liability, privacy, disputes and precedence require review. Owner support/hosting choices, tax treatment, payment setup and analytics validation remain in their numbered tasks.
+- Task 3 has not begun. Stop until Sean says continue.
