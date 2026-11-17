@@ -1,0 +1,19 @@
+name: Private website quality checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check site pages and links
+        run: python tests/check_pages.py
+      - name: Check showroom links and CSP compatibility
+        run: python tests/check_showroom.py
