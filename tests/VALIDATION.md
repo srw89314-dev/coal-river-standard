@@ -1,0 +1,1 @@
+Offline structural checks passed: 8 CRM tables, 8 RLS-enabled tables, no permissive policies, restrictive client relations, date constraint. Not applied to PostgreSQL; migration execution, security, app UI and real reporting remain untested.
