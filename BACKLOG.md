@@ -1,6 +1,27 @@
 # Coal River Standard — master to-do list
 Updated November 15, 2026. This is the consolidated execution list for the Small Business Website / Coal River Standard venture. It supersedes obsolete status and provisional prices in older Showroom roadmaps; it does not erase their reusable templates or authorize a public launch.
 
+## November 16–17, 2026 verified progress checkpoint
+
+**Master list remains 24 tasks.** No new tasks have been added. Earlier 27-item planning was a regrouping, not additional scope.
+
+**Before this batch:** 2/24 fully complete (Tasks 1 and 2; 8.3% by strict equal-weight task count).
+**After this batch:** 2/24 fully complete (8.3%). The work advanced several partially complete tasks, but none of their remaining acceptance gates can honestly be marked fully complete. This strict measure deliberately does not count partial work as completion.
+
+**Evidence and corrections**
+- Task 4: WV LLC formation approved, effective **November 10, 2026**, and WV state tax registration accepted per owner-provided records; unemployment processing/mailed certificate and private archival remain outstanding. The older unverified status below is superseded.
+- Task 5: EIN remains **pending owner action** and stays first in the owner action queue.
+- Task 13: 8-table PostgreSQL CRM schema committed in database/001_crm_schema.sql with RLS enabled and no access-granting policies. Not applied to a database, no authentication, not a working app.
+- Tasks 14–16: draft monthly report and unit economics worksheet committed. Provider installation, real measurement, recurring price approval and distribution remain pending.
+- Task 17: evidence-based fictional first-client rehearsal plan committed at operations/FIRST_CLIENT_REHEARSAL.md. The actual end-to-end test is not passed.
+- Task 18: three **fictional** existing Website Showroom demos adapted and published under dist/demos/ and linked from dist/work.html. Source-level CSP fix, link checks and a GitHub Actions quality workflow added. 62-industry builder/export testing and browser/mobile QA remain pending.
+- Task 20: checked committed HTML/CSS for three demo links, absence of inline styling, and disclaimers; Netlify reports production deploy ready and team login required. Real browser, device, keyboard, contact form and end-to-end acceptance tests remain pending.
+- Public launch (Task 22) **not approved**; Netlify team login remains enabled.
+
+**First-client decision:** The secure manual workbook and approved paperwork may be sufficient for an initial small build once owner-only business/payment/legal steps and a real end-to-end rehearsal pass; a production CRM and fully automated reporting are not prerequisites for the first basic client. Do not solicit clients or take payments until owner authorizes and required gates pass.
+
+---
+
 ## Working rule
 Sean authorized larger batches on November 15, 2026. Group related independent tasks, complete their available implementation and preparation, and report finished work, tests, concrete owner decisions and remaining dependencies at each substantial checkpoint. The earlier one-task-per-continue rule is superseded. Do not confuse a prepared template or manual prototype with a deployed system. Tasks needing owner documents, external approval, login, purchases, signatures or account opening remain dependent; explain the concrete dependency rather than pretending they are done.
 
