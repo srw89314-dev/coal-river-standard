@@ -37,9 +37,9 @@ for filename, doc in docs.items():
             target = 'index.html'
         if target == 'privacy':
             target = 'privacy.html'
-        assert target in docs, (filename, href, 'missing page')
+        assert (root / target).is_file(), (filename, href, 'missing page')
         if url.fragment:
-            assert url.fragment in docs[target].ids, (filename, href, 'missing section')
+            assert url.fragment in (docs[target].ids if target in docs else Doc((root / target).read_text()).ids), (filename, href, 'missing section')
     if filename in main_pages:
         assert doc.current == 1, (filename, 'expected one active nav item')
         source = (root / filename).read_text()
