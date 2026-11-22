@@ -33,7 +33,7 @@ for filename, doc in docs.items():
         if url.scheme or url.netloc:
             continue
         target = posixpath.normpath(url.path).lstrip('/') if url.path else (filename if href.startswith('#') else 'index.html')
-        if target == '.':
+        if target in ('', '.'):
             target = 'index.html'
         if target == 'privacy':
             target = 'privacy.html'
