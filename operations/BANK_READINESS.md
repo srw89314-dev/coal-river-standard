@@ -1,5 +1,9 @@
 # Climate First bank readiness
-Research checked November 15, 2026. No account application, purchase, funding or contact message was submitted.
+Research checked November 15 and November 22, 2026. No account application, purchase, funding or contact message was submitted.
+
+## Account choice
+
+Use an LLC-owned operating checking account for Stripe payouts and business expenses and a separate LLC-owned reserve account for taxes. Keep the household savings account separate. Ally Bank’s [deposit agreement](https://www.ally.com/content/dam/pdf/bank/ally-bank-deposit-agreement.pdf) limits its deposit accounts to personal, family and household purposes. The preferred pair is Climate First NetZero Business Checking and Business Money Market, subject to confirmation of West Virginia eligibility and required documents.
 
 ## Verified published terms
 | Item | Published finding |
@@ -40,3 +44,17 @@ Record banker name, date, answers and written disclosure reference. Opening and 
 - Money market: https://www.climatefirstbank.com/business/business-money-market
 - Product overview: https://www.climatefirstbank.com/business/business-products
 - IRS EIN: https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number
+
+## Stripe before the bank is open
+
+Create or use a Coal River Standard account in the [Stripe Dashboard](https://dashboard.stripe.com/) with the business email and two-step authentication. Select an isolated [sandbox](https://dashboard.stripe.com/sandboxes) for the rehearsal. Stripe supports testing before live business verification. Keep it separate from any other project’s Stripe account.
+
+Use the fictional Cedar Ridge Repair project, CRS-TEST-001, as the invoice sample. In the sandbox create a $497.50 USD invoice for the starting installment on the $995 service fee. Preview the hosted invoice and PDF. Verify the business name, project reference, support contact, and amount. Use Stripe’s published test cards to observe a decline followed by success. Confirm the invoice is paid once and reconcile the invoice and payment references in the fictional workbook. Rehearse a refund and document how it changes receipts. Any second installment is a separate balance invoice. This exercise excludes taxes and third-party costs.
+
+## Stripe activation after the bank is open
+
+Sean completes Stripe’s business verification, reviews customer-facing support details and connects the LLC operating checking account for payouts. Use the reserve account for transfers from operating checking. Confirm approved taxes, invoice terms and refund handling before invoicing a real client. Review the final customer-facing invoice and receipt in the Dashboard. If the public site is still protected during verification, follow Stripe’s instructions for providing an accessible business profile or website as requested.
+
+- [Stripe account setup](https://docs.stripe.com/get-started/account/set-up)
+- [Stripe sandbox and test scenarios](https://docs.stripe.com/testing-use-cases)
+- [Stripe Dashboard invoicing](https://docs.stripe.com/invoicing/dashboard)
